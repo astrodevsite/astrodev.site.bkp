@@ -2,7 +2,7 @@ baseURL = "https://example.com"
 
 languageCode = "en-us"
 DefaultContentLanguage = "en"
-title = "Astro documentation"
+title = "Ace documentation"
 theme = "ace-documentation"
 pygmentsCodeFences = true
 pygmentsStyle = "monokailight"
