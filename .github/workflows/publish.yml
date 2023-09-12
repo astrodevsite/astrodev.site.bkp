@@ -33,7 +33,12 @@ jobs:
           HOST: ${{ secrets.PUBLISH_HOST }}
           USERNAME: ${{ secrets.PUBLISH_USERNAME }}
           PORT: ${{ secrets.PUBLISH_PORT }}
+          PASSWORD: ${{ secrets.PUBLISH_PASSWORD }}
         with:
+          HOST: ${{ secrets.PUBLISH_HOST }}
+          USERNAME: ${{ secrets.PUBLISH_USERNAME }}
+          PORT: ${{ secrets.PUBLISH_PORT }}
+          PASSWORD: ${{ secrets.PUBLISH_PASSWORD }}
           source: "./public/*"
           target: ${{ secrets.PUBLISH_PATH }}
           strip_components: 1
